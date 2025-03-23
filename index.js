@@ -126,4 +126,6 @@ rstBtn.addEventListener("click",resetgame);
 scrbtn.addEventListener("click",()=>{
     oscr.innerText=0;
     xscr.innerText=0;
+    m=0;
+    n=0;
 });
