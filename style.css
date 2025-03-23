@@ -1,0 +1,91 @@
+body{
+    background-color:#336D82;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: #F5ECE0;
+    text-shadow: 1px 1px 2px black;
+    font-family: cursive;
+}
+.container{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+.box{
+    color: black;
+    border-radius: 5px;
+    border:none;
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+    background-color: #ffffc7;
+}
+.turn-msg{
+    font-size: 25px;
+    color:#D3E671;
+}
+#rst-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #3D0301;
+    color: #EBE8DB;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #3D0301;
+    color: #EBE8DB;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+.hide{
+    display:none;
+}
+#msg{
+    font-size: 30px;
+    color: #D3E671;
+}
+.table{
+    display:flex;
+    justify-content: center;
+}
+th{
+    padding: 5px 10px 5px 10px;
+    font-size: 4.5vmin;
+    background-color:#D3E671 ;
+}
+td{
+    font-size: 3.5vmin;
+    font-weight: bold;
+    background-color: #EBE8DB;
+}
+.o{
+    color: #143D60;
+}
+.x{
+    color: #A31D1D;
+}
+.scr-btn{
+    background-color: #3D0301;
+    color: #F5ECE0;
+    margin-top: 5px;
+}

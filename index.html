@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>TIC TAC TOE</h1>
+        <div class="turn-msg">Current Turn:<span id="turn-smb" style="color: #A1E3F9;">O</span></div>
+        <div class="win-cont hide" >
+            <p id="msg"></p>
+            <button id="new-btn">NEW GAME</button>
+        </div>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="rst-btn">RESTART GAME</button>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Player</th>
+                    <th>Points</th>
+                </tr>
+                <tr>
+                    <td class="o">O</td>
+                    <td class="o-scr">0</td>
+                </tr>
+                <tr>
+                    <td class="x">X</td>
+                    <td class="x-scr">0</td>
+                </tr>
+            </table>
+            
+        </div>
+        <button class="scr-btn">Reset Score</button>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
